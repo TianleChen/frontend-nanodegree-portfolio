@@ -1,0 +1,59 @@
+nav button{
+	opacity: 0;
+}
+
+@media (max-width: 800px){
+	nav ul     {display: none;}
+	nav button {opacity: 1;}
+}
+
+.navbar-body{
+	font-weight: bold;
+}
+
+.button-pos{
+	margin: 8px;
+}
+
+.bgimg{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../img/frontpage.jpg");
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.header-text{
+	margin-top: 100px;
+	font-family: 'Verdana', sans-serif;
+	border-radius: 25px;
+	border-style: solid;
+	background-color: #FFF;
+	opacity: 0.5;
+}
+
+
+.btn-dark{
+	background-color: #000;
+	opacity: 0.6;
+	color: #fff;
+}
+
+.btn-dark:hover{
+	background-color: #ccc;
+}
+
+.about{
+	padding: 50px 0;
+}
+
+.maintext{
+	font-size: 18px;
+}
+
+.proj-img{
+	padding: 15px;
+}
