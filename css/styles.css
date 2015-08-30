@@ -1,24 +1,29 @@
-nav button{
+nav button {
 	opacity: 0;
 }
 
-@media (max-width: 800px){
-	nav ul     {display: none;}
-	nav button {opacity: 1;}
+@media (max-width: 800px) {
+	nav ul {
+		display: none;
+	}
+
+	nav button {
+		opacity: 1;
+	}
 }
 
-.navbar-body{
+.navbar-body {
 	font-weight: bold;
 }
 
-.button-pos{
+.button-pos {
 	margin: 8px;
 }
 
-.bgimg{
+.bg-img {
 	width: 100%;
 	height: 100vh;
-	background-image: url("../img/frontpage.jpg");
+	background-image: url(../img/frontpage.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -26,34 +31,50 @@ nav button{
 	background-size: cover;
 }
 
-.header-text{
+.header-text {
 	margin-top: 100px;
-	font-family: 'Verdana', sans-serif;
+	font-family: "Verdana", sans-serif;
 	border-radius: 25px;
 	border-style: solid;
-	background-color: #FFF;
+	background-color: #fff;
 	opacity: 0.5;
 }
 
 
-.btn-dark{
+.btn-dark {
 	background-color: #000;
 	opacity: 0.6;
 	color: #fff;
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
 	background-color: #ccc;
 }
 
-.about{
+.about {
 	padding: 50px 0;
 }
 
-.maintext{
+.maintext {
 	font-size: 18px;
 }
 
-.proj-img{
+.proj-img {
 	padding: 15px;
+}
+
+.skill-js {
+	width: 85%;
+}
+
+.skill-html {
+	width: 90%;
+}
+
+.skill-css {
+	width: 92%;
+}
+
+.skill-c {
+	width: 75%;
 }
